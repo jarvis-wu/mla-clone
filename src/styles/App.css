@@ -1,0 +1,97 @@
+.SideNavigationBar {
+  width: 100px;
+  z-index: 1;
+  left: 90px;
+  padding-top: 58px;
+  padding-left: 82px;
+  /* background-color: #2e95cc55; */
+}
+
+.SideNavigationBar a {
+  color: transparent;
+  display: block;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  padding-bottom: 15px;
+  text-shadow: 0 0 1px #555555; /* simulate blurry font */
+  text-decoration: none;
+}
+
+.SideNavigationBarSpacer {
+  height: 80px;
+}
+
+.Body {
+  /* background-color: #2ecc7155; */
+  width: 100%;
+  padding-top: 149px;
+}
+
+.ContactLink {
+  color: #000000;
+  font-size: 12px;
+  margin-left: 162px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  padding: 10px;
+}
+
+.AlbumCard {
+  font-size: 12px;
+}
+
+.Album-Description-Bottom {
+  margin-top: -10px;
+  margin-bottom: 18px;
+}
+
+.LyricsLink {
+  color: #000000;
+}
+
+.grid-container-2 {
+  margin-left: 12px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 310px 310px;
+  /* background-color: aquamarine; */
+  width: 920px;
+  justify-content: center;
+}
+
+.grid-container-3 {
+  margin-left: 12px;
+  display: grid;
+  grid-template-columns: 310px 310px 310px;
+  /* background-color: #412456; */
+  width: 920px;
+}
+
+.grid-item {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.Album-Description {
+  height: 50px;
+}
+
+.lyrics-line {
+  margin-top: -12px;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  height: 28px;
+}
